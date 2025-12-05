@@ -9,7 +9,7 @@
 
   <default remote="seL4" revision="master"/>
 
-  <project name="NewRiscOS.git" path="projects/NewRiscOS" remote="jhamby" upstream="main" dest-branch="main">
+  <project name="NewRiscOS.git" path="projects/NewRiscOS" remote="jhamby" revision="main">
     <linkfile src="README.md" dest="README.md"/>
   </project>
 
