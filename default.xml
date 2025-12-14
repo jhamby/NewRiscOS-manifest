@@ -9,12 +9,12 @@
 
   <default remote="seL4" revision="master"/>
 
-  <project name="NewRiscOS.git" path="projects/NewRiscOS" remote="jhamby" revision="main">
+  <project name="NewRiscOS.git" path="NewRiscOS" remote="jhamby" revision="main">
     <linkfile src="README.md" dest="README.md"/>
   </project>
 
   <project name="musllibc.git" path="projects/musllibc" revision="b0005f86fecbd6d0257b15363a5b013446914265" upstream="sel4" dest-branch="sel4"/>
-  <project name="seL4.git" path="kernel" revision="b0567c4d1c2712abfca032058a8456dd13a0825f" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="projects/seL4" revision="b0567c4d1c2712abfca032058a8456dd13a0825f" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="2580739bde15ec0dac1bef43a4e313e3752b7692" upstream="master" dest-branch="master"/>
   <project name="sel4runtime" path="projects/sel4runtime" revision="86489cf6efab9f314964e79468c036e9035394c7" upstream="master" dest-branch="master"/>
   <project name="util_libs.git" path="projects/util_libs" revision="43e0806a2c3387a9afd6a86f0d5d6516991f5ae2" upstream="master" dest-branch="master"/>
